@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CRProductDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>CRProductDetail.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>56EB49A91ECEC4BE0028282D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56EB49B81ECEC4DA0028282D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
