@@ -15,10 +15,13 @@
 @end
 
 @implementation CRGoodsDetailServiceProvide
+
+//注册一个协议
 + (void)load {
     [CRProtocolManager registServiceProvide:[[self alloc] init] forProtocol:@protocol(CRGoodsDetailServiceProtocol)];
 }
 
+//商品详情的 对外接口  获取当前控制器
 - (UIViewController *)goodsDetailViewControllerWithGoodsId:(NSString *)goodsId goodName:(NSString *)goodName {
     CRGoodsDetailViewController *goodDetailVC = [[CRGoodsDetailViewController alloc] initWithGoodsId:goodsId goodsName:goodName];
     return goodDetailVC;
